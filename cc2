@@ -1,0 +1,65 @@
+Token: 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
+
+Inter lan
+
+Device
+IP address
+Subnet mask
+Default gateway
+PC0
+192.168.1.2
+255.255.255.0
+192.168.1.1
+PC1
+192.168.2.2
+255.255.255.0
+192.168.2.1
+
+Router interfaces:
+Interface
+IP address
+G0/0
+192.168.1.1
+G0/1
+192.168.2.1
+
+Remember:
+PC0's gateway must match the router interface connected to its LAN.
+PC1's gateway must match the router interface connected to its LAN.
+Each LAN needs a different network address.
+
+
+Git push local system:
+Cd till ur folder
+Ls 
+Git remote add origin https://….
+Git branch -M main
+Git push -u origin main
+
+Sql on vm
+Sudo su -
+Sudo apt install mysql-server
+Sudo systemclt status mysql
+Sudo mysql
+mysql> CREATE DATABASE myDB;
+mysql> USE myDB;
+mysql> CREATE TABLE users(id INT AUTO_INCREMENT PRIMARY KEY,
+						name VARCHAR(100),
+						email VARCHAR(255));
+mysql> SHOW TABLES;
+mysql> INSERT INTO users (id, name,email) VALUES (101,“BEATRICE”, “beatrice@gmail.com”);
+
+
+Vm to github
+cd /media/sf_filename
+
+git init
+git add index.html
+git commit -m "First commit"
+git remote add origin YOUR_REPOSITORY_URL
+git branch -M main
+git push -u origin main
+
+
+
+
