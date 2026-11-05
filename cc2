@@ -1,3 +1,13 @@
+Open Oracle VirtualBox-> Click New.
+Enter the VM name
+Select the Ubuntu ISO file.
+Set up username and password
+Choose the OS type: Linux → Ubuntu (64-bit).
+Base memory=4096, no CPU=4 , 
+Set disk size 25.00MB ->finish
+
+
+
 Token: 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
 
 Inter lan
